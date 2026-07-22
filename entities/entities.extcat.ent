@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Revision$ -->
+<!--
+
+Entities for the categorized extension list, so it does not need
+to be translated, and thus it is not going to be outdated.
+
+-->
+
+<entities xmlns       = "http://docbook.org/ns/docbook"
+          translate   = "yes">
+
+<entity name="extcat.alphabetical"><title>Alphabetical</title></entity>
+
+<entity name="extcat.intro">
+ <title>Extension List/Categorization</title>
+ <simpara>
+  This appendix categorizes more than 150 extensions documented in
+  the PHP Manual by several criteria.
+ </simpara>
+</entity>
+
+<entity name="extcat.membership.core">
+ <title>Core Extensions</title>
+ <simpara>
+  These are not actual extensions. They are part of the PHP core
+  and cannot be left out of a PHP binary with compilation options.
+ </simpara>
+</entity>
+
+<entity name="extcat.membership.bundled">
+ <title>Bundled Extensions</title>
+ <simpara>These extensions are bundled with PHP.</simpara>
+</entity>
+
+<entity name="extcat.membership.external">
+ <title>External Extensions</title>
+ <simpara>
+  These extensions are bundled with PHP but in order to
+  compile them, external libraries will be needed.
+ </simpara>
+</entity>
+
+<entity name="extcat.membership.pecl">
+ <title>PECL Extensions</title>
+ <simpara>
+  These extensions are available from &link.pecl;. They may
+  require external libraries. More PECL extensions exist but they
+  are not documented in the PHP manual yet.
+ </simpara>
+</entity>
+
+<entity name="extcat.state">
+ <title>State</title>
+ <simpara>
+  This part lists extensions not intended for the production use —
+  they are either too "old" (deprecated) or "new" (experimental).
+ </simpara>
+</entity>
+
+<entity name="extcat.state.deprecated">
+ <title>Deprecated Extensions</title>
+ <simpara>
+  These extensions have been deprecated usually in the favor of
+  some other extensions.
+ </simpara>
+</entity>
+
+<entity name="extcat.state.experimental">
+ <title>Experimental Extensions</title>
+ <simpara>
+  The behaviour of these extensions — including the names of their
+  functions and anything else documented about these extensions —
+  may change without notice in a future release of PHP. Use these
+  extensions at your own risk.
+ </simpara>
+</entity>
+
+<entity name="extcat.purpose"><title>Purpose</title></entity>
+
+<entity name="extcat.purpose.basic"><title>Basic PHP Extensions</title></entity>
+
+<entity name="extcat.purpose.basic.vartype"><title>Variable and TypeRelated Extensions</title></entity>
+
+<entity name="extcat.purpose.basic.text"><title>Text Processing</title></entity>
+
+<entity name="extcat.purpose.basic.php"><title>Affecting PHP's Behaviour</title></entity>
+
+<entity name="extcat.purpose.basic.session"><title>Session Extensions</title></entity>
+
+<entity name="extcat.purpose.basic.other"><title>Other Basic Extensions</title></entity>
+
+<entity name="extcat.purpose.database"><title>Database Extensions</title></entity>
+
+<entity name="extcat.purpose.database.abstract"><title>Abstraction Layers</title></entity>
+
+<entity name="extcat.purpose.database.vendors"><title>Vendor Specific Database Extensions</title></entity>
+
+<entity name="extcat.purpose.xml"><title>XML Manipulation</title></entity>
+
+<entity name="extcat.purpose.webservice"><title>Web Services</title></entity>
+
+<entity name="extcat.purpose.creditcard"><title>Credit Card Processing</title></entity>
+
+<entity name="extcat.purpose.mathcrypto"><title>Math and Cryptography</title></entity>
+
+<entity name="extcat.purpose.mathcrypto.math"><title>Mathematical Extensions</title></entity>
+
+<entity name="extcat.purpose.mathcrypto.crypto"><title>Cryptography Extensions</title></entity>
+
+<entity name="extcat.purpose.international"><title>Human Language and Character Encoding Support</title></entity>
+
+<entity name="extcat.purpose.fileprocess"><title>File System and Process Control</title></entity>
+
+<entity name="extcat.purpose.fileprocess.file"><title>File System Related Extensions</title></entity>
+
+<entity name="extcat.purpose.fileprocess.process"><title>Process Control Extensions</title></entity>
+
+<entity name="extcat.purpose.remote"><title>Accessing Services</title></entity>
+
+<entity name="extcat.purpose.remote.mail"><title>Mail Related Extensions</title></entity>
+
+<entity name="extcat.purpose.remote.auth"><title>Authentication Services</title></entity>
+
+<entity name="extcat.purpose.remote.other"><title>Other Services</title></entity>
+
+<entity name="extcat.purpose.compression"><title>Compression and Archive Extensions</title></entity>
+
+<entity name="extcat.purpose.calendar"><title>Date and Time Related Extensions</title></entity>
+
+<entity name="extcat.purpose.utilspec"><title>Utilization Area Specific Extensions</title></entity>
+
+<entity name="extcat.purpose.utilspec.nontext"><title>Non-Text MIME Output</title></entity>
+
+<entity name="extcat.purpose.utilspec.image"><title>Image Processing and Generation</title></entity>
+
+<entity name="extcat.purpose.utilspec.audio"><title>Audio Formats Manipulation</title></entity>
+
+<entity name="extcat.purpose.utilspec.cmdline"><title>Command Line Specific Extensions</title></entity>
+
+<entity name="extcat.purpose.utilspec.windows"><title>Windows Only Extensions</title></entity>
+
+<entity name="extcat.purpose.utilspec.server"><title>Server Specific Extensions</title></entity>
+
+<entity name="extcat.membership"><title>Membership</title></entity>
+
+</entities>
