@@ -20,17 +20,19 @@ to be translated, and thus it is not going to be outdated.
  </simpara>
 </entity>
 
+<entity name="extcat.membership"><title>Membership</title></entity>
+
+<entity name="extcat.membership.bundled">
+ <title>Bundled Extensions</title>
+ <simpara>These extensions are bundled with PHP.</simpara>
+</entity>
+
 <entity name="extcat.membership.core">
  <title>Core Extensions</title>
  <simpara>
   These are not actual extensions. They are part of the PHP core
   and cannot be left out of a PHP binary with compilation options.
  </simpara>
-</entity>
-
-<entity name="extcat.membership.bundled">
- <title>Bundled Extensions</title>
- <simpara>These extensions are bundled with PHP.</simpara>
 </entity>
 
 <entity name="extcat.membership.external">
@@ -141,7 +143,5 @@ to be translated, and thus it is not going to be outdated.
 <entity name="extcat.purpose.utilspec.windows"><title>Windows Only Extensions</title></entity>
 
 <entity name="extcat.purpose.utilspec.server"><title>Server Specific Extensions</title></entity>
-
-<entity name="extcat.membership"><title>Membership</title></entity>
 
 </entities>
