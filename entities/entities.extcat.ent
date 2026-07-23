@@ -2,8 +2,7 @@
 <!-- $Revision$ -->
 <!--
 
-Entities for the categorized extension list, so it does not need
-to be translated, and thus it is not going to be outdated.
+Entities for the categorized extension list.
 
 -->
 
@@ -77,71 +76,5 @@ to be translated, and thus it is not going to be outdated.
   extensions at your own risk.
  </simpara>
 </entity>
-
-<entity name="extcat.purpose"><title>Purpose</title></entity>
-
-<entity name="extcat.purpose.basic"><title>Basic PHP Extensions</title></entity>
-
-<entity name="extcat.purpose.basic.vartype"><title>Variable and TypeRelated Extensions</title></entity>
-
-<entity name="extcat.purpose.basic.text"><title>Text Processing</title></entity>
-
-<entity name="extcat.purpose.basic.php"><title>Affecting PHP's Behaviour</title></entity>
-
-<entity name="extcat.purpose.basic.session"><title>Session Extensions</title></entity>
-
-<entity name="extcat.purpose.basic.other"><title>Other Basic Extensions</title></entity>
-
-<entity name="extcat.purpose.database"><title>Database Extensions</title></entity>
-
-<entity name="extcat.purpose.database.abstract"><title>Abstraction Layers</title></entity>
-
-<entity name="extcat.purpose.database.vendors"><title>Vendor Specific Database Extensions</title></entity>
-
-<entity name="extcat.purpose.xml"><title>XML Manipulation</title></entity>
-
-<entity name="extcat.purpose.webservice"><title>Web Services</title></entity>
-
-<entity name="extcat.purpose.creditcard"><title>Credit Card Processing</title></entity>
-
-<entity name="extcat.purpose.mathcrypto"><title>Math and Cryptography</title></entity>
-
-<entity name="extcat.purpose.mathcrypto.math"><title>Mathematical Extensions</title></entity>
-
-<entity name="extcat.purpose.mathcrypto.crypto"><title>Cryptography Extensions</title></entity>
-
-<entity name="extcat.purpose.international"><title>Human Language and Character Encoding Support</title></entity>
-
-<entity name="extcat.purpose.fileprocess"><title>File System and Process Control</title></entity>
-
-<entity name="extcat.purpose.fileprocess.file"><title>File System Related Extensions</title></entity>
-
-<entity name="extcat.purpose.fileprocess.process"><title>Process Control Extensions</title></entity>
-
-<entity name="extcat.purpose.remote"><title>Accessing Services</title></entity>
-
-<entity name="extcat.purpose.remote.mail"><title>Mail Related Extensions</title></entity>
-
-<entity name="extcat.purpose.remote.auth"><title>Authentication Services</title></entity>
-
-<entity name="extcat.purpose.remote.other"><title>Other Services</title></entity>
-
-<entity name="extcat.purpose.compression"><title>Compression and Archive Extensions</title></entity>
-
-<entity name="extcat.purpose.calendar"><title>Date and Time Related Extensions</title></entity>
-
-<entity name="extcat.purpose.utilspec"><title>Utilization Area Specific Extensions</title></entity>
-
-<entity name="extcat.purpose.utilspec.nontext"><title>Non-Text MIME Output</title></entity>
-
-<entity name="extcat.purpose.utilspec.image"><title>Image Processing and Generation</title></entity>
-
-<entity name="extcat.purpose.utilspec.audio"><title>Audio Formats Manipulation</title></entity>
-
-<entity name="extcat.purpose.utilspec.cmdline"><title>Command Line Specific Extensions</title></entity>
-
-<entity name="extcat.purpose.utilspec.windows"><title>Windows Only Extensions</title></entity>
-
-<entity name="extcat.purpose.utilspec.server"><title>Server Specific Extensions</title></entity>
 
 </entities>
